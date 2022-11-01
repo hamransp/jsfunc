@@ -1,7 +1,7 @@
 function autoRelated(data) {
     var out = data[1];		    
 
-    for (i = 0; i < out.length; i++) {
+    for (i = 1; i < out.length; i++) {
         var kw = out[i];
         
         dom += `<div class="card mt-5 ">
