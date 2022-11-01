@@ -6,7 +6,7 @@ function autoRelated(data) {
         
         dom += `<div class="card mt-5 ">
         <div class="max-w-full rounded overflow-hidden shadow-sm bg-slate-50">
-            <img class="object-cover w-auto bg-center bg-cover h-96"
+            <img class="object-cover w-full bg-center bg-cover h-96"
                 src="https://tse1.mm.bing.net/th?q=${encodeURIComponent(kw)}"
                 alt="${kw}" />
             <div class="px-6 py-4">
