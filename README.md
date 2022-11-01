@@ -1,0 +1,2 @@
+# jsfunc
+Kumpulan Fungsi Javascript
