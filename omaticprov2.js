@@ -10,7 +10,7 @@ function autoRelated(data) {
                 src="https://tse1.mm.bing.net/th?q=${encodeURIComponent(kw)}"
                 alt="${kw}" />
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2"><h3><a href="${baseUrl}search/q=${encodeURIComponent(kw)}">${kw}</a></h3></div>
+                <div class="font-bold text-xl mb-2"><h3 class="capitalize"><a href="${baseUrl}search/q=${encodeURIComponent(kw)}">${kw}</a></h3></div>
                 <p class="text-gray-700 text-base">
                 <b>${kw}</b> is one of best result for ${postTitle}. Everything in here is for references perpose only. Feel free to save and bookmark ${kw}
                 </p>
